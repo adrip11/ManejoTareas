@@ -14,7 +14,7 @@
       <tr>
         @foreach ($estados as $estado)
           <td class="info" align="center"> {{$estado->Nombre}}
-            <button type="button" class="btn btn-info " id="agregar">Nueva</button>
+            <button type="button" class="btn btn-info " tada-target="modal"id="agregar">Nueva</button>
 
           </td>
         @endforeach
